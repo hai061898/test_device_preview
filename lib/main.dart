@@ -1,7 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:onboarding/ui/screens/onboarding1/onboarding_page1.dart';
+// import 'package:onboarding/ui/screens/onboarding1/onboarding_page1.dart';
 import 'package:device_preview/device_preview.dart';
+import 'package:onboarding/ui/screens/onboarding2/intro_pages.dart';
 
 void main() {
   runApp( DevicePreview(
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: OnboardingScreenOne(),
+      home: IntroPage(),
     );
   }
 }
