@@ -86,7 +86,7 @@ class _IntroPageState extends State<IntroPage> {
         itemCount: list.length,
         itemBuilder: (context, index) {
           return Column(
-            children: <Widget>[
+            children: [
               index == 1
                   ? _displayText(list[index].text!)
                   : _displayImage(list[index].id!),
